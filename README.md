@@ -6,23 +6,15 @@ Instructions
 1. Download the 'mbr_library.sdf'.
 2. Within your ros2 workspace, create a folder named 'worlds'. It is important you create a separate directory to keep things organised as later on the file structure will look as such:
 
-    worlds/
-   
-    ├── mbr_library.config
-   
-    ├── mbr_library.sdf
-   
-    └── meshes/
-   
-        └── plant.glb
-   
-        └── desk.glb
-   
-        └── bookshelf.glb
-   
-        └── chair.glb
-   
-   ...
+        worlds/
+        ├── mbr_library.config
+        ├── mbr_library.sdf
+        └── meshes/
+            └── plant.glb
+            └── desk.glb
+            └── bookshelf.glb
+            └── chair.glb
+       ...
    
 4. Open terminal, change the exact directory in your ros2 workspace where 'mbr_library.sdf' is located.
 5. Run the command 'gz sim mbr_library.sdf'
