@@ -16,7 +16,7 @@ Instructions
             └── chair.glb
        ...
    
-4. Open terminal, change the exact directory in your ros2 workspace where 'mbr_library.sdf' is located.
+4. Open terminal, change directory to your ros2 workspace where 'mbr_library.sdf' is located.
 5. Run the command 'gz sim mbr_library.sdf'
 6. Your gazebo will open showing the library map :)
 <img width="1854" height="1048" alt="Screenshot from 2026-07-22 22-49-28" src="https://github.com/user-attachments/assets/fbc7a323-5c6c-45b0-a4c1-c6f5da2de43b" />
